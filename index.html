@@ -2,9 +2,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Inscrição em Cursos</title>
 </head>
 <body>
-    
+    <main>
+        <div>
+            <h1>Incrição em Cursos</h1>
+
+            <form id="formInscricao">
+                
+                <input type="text" id="nome" placeholder="Nome Completo" required>
+                <input type="text" id="cpf" placeholder="CPF" required>
+                <input type="text" id="telefone" placeholder="Telefone" required>
+
+                <select id="curso" required>
+                    <option value="">Selecione um curso</option>
+                    <option>Informática</option>
+                    <option>Administração</option>
+                    <option>Inglês</option>
+                </select>
+                <button type="submit">Inscrever-se</button>
+            </form>
+
+            <a href="status.html">Consultar Status</a>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
